@@ -1,0 +1,124 @@
+/* Container for Theme1 */
+.theme1-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f9;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header styling */
+.theme1-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.theme1-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.theme1-header nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+
+.theme1-header nav ul li {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.theme1-header nav ul li:hover {
+  color: #61dafb;
+}
+
+/* Main content styling */
+.theme1-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Profile section */
+.theme1-profile {
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.theme1-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.theme1-social-icons a {
+  font-size: 24px;
+  color: #333;
+}
+
+.theme1-social-icons a:hover {
+  color: #61dafb;
+}
+
+/* About section */
+.theme1-about {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme1-about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.theme1-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.theme1-details div {
+  flex: 1;
+}
+
+.theme1-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.theme1-details ul {
+  list-style-type: square;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.download-cv-btn {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.download-cv-btn:hover {
+  background-color: #21a1f1;
+}
